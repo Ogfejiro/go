@@ -511,40 +511,33 @@ h4{
 .grid-childb{
     padding-left:40px;
     display: flex;
-    border-bottom: 1px solid rgb(193, 188, 188);
-     border-left:1px solid rgb(193, 188, 188) ;
+    border-bottom: 1px solid #dde3ea;
+     border-left:1px solid #dde3ea;
+     margin-left: 20px;
+     
 }
 
 .button{
    padding-top: 16px;
     padding-bottom: 0;
    width:300px;
-   display: flex;
-   border: none;
+  border-radius: 20px;
+  padding:7px 7% 7px 7%;
+  border:  1px solid  #dde3ea;
+  height: 35px;
+  align-items: center;
+  margin-left: 25%;
+  margin-top:10px;
    
 }
     
-  
-     
-
-
-.button div{
-    height:1px;
-    width:20%;
-    background-color: grey;
-    margin-top:0px;
-    text-align: center;
-   
-
-     
-    
-}
 
 button{
-    width:200px;
-    padding:12px;
-    border-radius: 12px;
-    border:none;
+  border-radius: 20px;
+  padding:7px 7% 7px 7%;
+  border:  1px solid  #dde3ea;
+  height: 35px;
+  margin-top:10px;
     
 }
 
@@ -563,7 +556,7 @@ button{
 }
 
 .ask p{
-     border-top: 1px solid rgb(240, 236, 236);
+     border-top: 1px solid  #dde3ea;
      width:600px;
      display: flex;
      justify-content: space-between;
@@ -594,7 +587,7 @@ button{
 .videos-link{
     display: flex;
     padding-top: 12px;
-    border-top: 1px solid rgb(238, 234, 234);
+    border-top: 1px solid #dde3ea;
     
 }
 
@@ -634,7 +627,7 @@ span{
 .cards3{
     width:70%;
     height:300px;
-    border:1px solid rgb(238, 234, 234);
+    border:1px solid #dde3ea;
     border-radius: 12px;
 }
 
@@ -707,7 +700,7 @@ span{
 }
 
 .searches h2{
-    border-bottom: 1px solid  rgb(238, 234, 234);
+    border-bottom: 1px solid  #dde3ea;
 }
 
 .searches h4{
@@ -730,19 +723,20 @@ span{
 }
 
 .butt{
-   position: relative;
-   left:250px;
-   margin-top: 30px;
     width:300px;
-    border-radius: 20px;
-    border: none;
-    padding:15px;
-  
+  border-radius: 20px;
+  padding:7px 7% 7px 7%;
+  border:  1px solid  #dde3ea;
+  height: 35px;
+  align-items: center;
+  margin-left: 25%;
+  margin-top:10px;
 }
 
-.flex-button{
-    padding-top: 170px;
-     margin-left: 12px;
+.snip-btn{
+    padding-top: 20px;
+   
+    
 }
 
 .flex-butt{
@@ -751,36 +745,32 @@ span{
     justify-content: center;
     gap:23px;
     
-}
-
-.wide{
-    width:300px;
-    border-radius: 20px;
-    border: none;
-    padding:15px;
-     
-
-}
-
-.logo{
-    padding-top: 80px;
-    width:40%;
-    margin-left: 90px;
-    line-height: 40px;
     
 }
 
-.logo-go{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
+.wide{
+    width:350px;
+  border-radius: 20px;
+  padding:10px 10% 10px 10%;
+  border:  none;
+  height: 45px;
+  align-items: center;
+  margin-left: 25%;
+  margin-top:10px;
+  font-size: 16px;
 }
 
-.num{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.wide i{
+    color:grey;
+}
+
+.bold{
+    font-weight:bold;
+    color:black;
+}
+
+.snip{
+    margin-left: 30%;
 }
 
 .footer{
@@ -941,3 +931,4 @@ th{
     padding-bottom: 12px;
     
 }
+
